@@ -1,7 +1,13 @@
 # Intelligent Resume Writer
 📦 **Official binary releases for early testers of Intelligent Resume Writer**
 
-![What is Intelligent Resume Writer](screenshots/help.png)
+## What is Intelligent Resume Writer
+
+**The app creates a curated knowledge base of your professional background from your existing resumes, plain text, or Markdown journals. By providing a job description and selecting relevant experiences, the app generates a targeted resume without hallucination. While it utilizes LLMs, it features a one-click configuration to host models locally via Ollama, ensuring your data remains on your computer.**
+
+## How does the UI look like
+
+![How does the UI look like](screenshots/help.png)
 
 ## Download
 
@@ -20,6 +26,7 @@ Visit the [Releases page](https://github.com/kevin8xu/resume_writer-releases/rel
 1. Download `.zip` file
 2. Open `Intelligent Resume Writer.app`
 3. First launch: Right-click → Open (bypass Gatekeeper)
+4. Or, in your terminal run the command once: `xattr -cr Intelligent Resume Writer.app` to clear the quarantine bit
 
 ### Windows (TBD)
 
